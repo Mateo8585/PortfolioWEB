@@ -1,0 +1,551 @@
+html{
+
+    margin: -0.5rem 0rem 0rem -0.5rem;
+
+}
+
+@font-face{
+
+    font-family: 'Mi Fuente';
+    src: url(../Fuentes/Montserrat-Medium.ttf);
+
+}
+
+@font-face{
+
+    font-family: 'Mi segunda fuente';
+    src: url(../Fuentes/Montserrat-Light.ttf);
+
+}
+
+h1{
+
+    font-family: 'Mi Fuente';
+    font-size: 1.2rem;
+    color: #a8cbff;
+
+}
+
+h3{
+
+    font-family: 'Mi Fuente';
+    font-size: 1.7rem;
+
+}
+
+p{
+
+    font-family: 'Mi Fuente';
+
+}
+
+h2{
+
+    font-family: 'Mi Fuente';
+    line-height: 1.8rem;
+    font-size: 1.1rem;
+
+}
+
+.o-container-Menu{
+
+    width: 118.9rem;
+    height: 5rem;
+    background-color: #232C39;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem 0rem 0.5rem 0rem;
+
+}
+
+.o-container-Logo{
+
+    width: 13rem;
+    height: 3.2rem;
+    margin: 0rem 17rem 0rem 0rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+
+.o-container-TextContacts{
+   
+    width: 13rem;
+    height: 3.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3rem;
+
+}
+
+.o-container-Text{
+
+    width: 13rem;
+    height: 3.2rem;
+    display: flex;
+    justify-content: center;
+    margin: 0rem 6rem 0rem 6rem;
+    align-items: center;
+    border-radius: 3rem;
+
+}
+
+.o-info-logo{
+
+    font-size: 4rem;
+
+}
+
+.o-container-presentation{
+
+    width: 118.9rem;
+    height: 54.6rem;
+    background-color: #232C39;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.o-container-ZoneContacts{
+
+    width: 118.9rem;
+    height: 26rem;
+    background-color: #A8CCFF;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.o-container-adress{
+
+    width: 26rem;
+    height: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.o-container-imgAdress{
+
+    width: 7rem;
+    height: 7rem;
+    margin: 0rem 1rem 0rem 0rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+
+}
+
+.o-img-map{
+
+    width: 4rem;
+
+}
+
+.o-container-textAdress{
+
+    width: 15rem;
+    height: 11rem;
+
+}
+
+.o-container-Phone{
+
+    width: 26rem;
+    height: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.o-container-ImgPhone{
+
+    width: 7rem;
+    height: 7rem;
+    margin: 0rem 1rem 0rem 0rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    
+}
+
+.o-container-TextPhone{
+
+    width: 15rem;
+    height: 11rem;
+
+}
+
+.o-container-eMail{
+
+    width: 26rem;
+    height: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.o-container-ImgMail{
+
+    width: 7rem;
+    height: 7rem;
+    margin: 0rem 1.3rem 0rem 0rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    
+}
+
+.o-container-TextEmail{
+
+    width: 15rem;
+    height: 11rem;
+
+}
+
+.o-container-Web{
+
+    width: 26rem;
+    height: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.o-container-ImgWeb{
+
+    width: 7rem;
+    height: 7rem;
+    margin: 0rem 1.3rem 0rem 0rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    
+}
+
+.o-container-TextWeb{
+
+    width: 15rem;
+    height: 11rem;
+
+}
+
+.o-container-imgPerfil{
+
+    width: 36rem;
+    height: 36rem;
+    background-color: #a8cbff;
+    border-radius: 20rem;
+    margin: 0rem 5.2rem 0rem 0rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.o-container-TextPerfil{
+
+    width: 43rem;
+    height: 23rem;
+    /*background-color: gray;*/
+    line-height: 1.9rem;
+
+}
+
+.o-container-NamePerfil{
+
+    font-size: 5rem;
+    color: #a8cbff;
+
+}
+
+.o-img-PhotoPerfil{
+
+    width: 34rem;
+
+}
+
+.o-container-Title{
+
+    color: #a8cbff;
+
+}
+
+.o-container-TitleSecond{
+
+    color: white;
+    font-family: 'Mi segunda fuente';
+
+}
+
+.o-container-AboutMe{
+
+    width: 118.9rem;
+    height: 40rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 6rem 0rem 0rem 0rem;
+
+}
+
+.o-container-NameUser{
+
+    width: 89rem;
+    height: 8rem;
+    line-height: 1.2rem;
+    text-align: center;
+    vertical-align: middle;
+    margin: 0rem 0rem -3rem 0rem;
+
+}
+
+.ChangeName{
+
+    font-size: 2.5rem;
+    color: #232C39;
+
+}
+
+.ChangeProfession{
+
+    font-size: 1.5rem;
+    font-family: 'Mi segunda fuente';
+
+}
+
+.o-container-country{
+
+    width: 30rem;
+    height: 27rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.o-container-old{
+
+    width: 30rem;
+    height: 27rem;
+    margin: 0rem 5.4rem 0rem 5.4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.o-container-formation{
+
+    width: 30rem;
+    height: 27rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.o-container-imgCountry{
+
+    width: 10rem;
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.o-img-AboutMe{
+
+    width: 8rem;
+
+}
+
+.o-container-TextCountry{
+
+    width: 14rem;
+    height: 7rem;
+    text-align: center;
+
+}
+
+.o-titleHome{
+
+    color: black;
+    font-size: 1.6rem;
+
+}
+
+.o-container-img-old{
+
+    width: 10rem;
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.o-container-TextOld{
+
+    width: 11rem;
+    height: 7rem;
+    text-align: center;
+
+}
+
+.o-container-img-Formation{
+
+    width: 10rem;
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.o-container-TextFormation{
+
+    width: 16rem;
+    height: 7rem;
+    text-align: center;
+
+}
+
+.o-container-Capacities{
+
+    width: 118.9rem;
+    height: 50rem;
+    background-color: #A8CCFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.o-container-infoCapacities{
+
+    width: 29rem;
+    height: 25rem;
+    margin: -4rem 10rem 0rem 0rem;
+
+}
+
+.o-container-Titlecapacities{
+
+    width: 93rem;
+    height: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: -4rem 0rem -7rem 0rem;
+
+}
+
+.TextCapacities{
+
+    font-size: 2rem;
+    color: #232C39;
+
+}
+
+.o-titleHabilities{
+
+    font-size: 1.3rem;
+    color: #232C39;
+
+}
+
+.o-titleProgram{
+
+    font-size: 2.1rem;
+    line-height: 2.8rem;
+
+}
+
+.o-container-skill{
+
+    width: 47rem;
+    height: 25rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: -4rem 0rem 0rem 0rem;
+
+}
+
+.o-container-TextJava{
+
+    width: 10rem;
+    height: 3rem;
+
+}
+
+.o-container-PorceJava{
+
+    width: 3rem;
+    height: 3rem;
+
+}
+
+.Programs{
+
+    color: #232C39;
+
+}
+
+.o-container-BarProgram{
+
+    width: 47rem;
+    height: 1rem;
+    background-color: #e9ecef;
+
+}
+
+.o-container-ProgressJava{
+
+    width: 42rem;
+    height: 1rem;
+    background-color: #9C8557;
+
+}
+
+.o-container-ProgressPython{
+
+    width: 15rem;
+    height: 1rem;
+    background-color: #9C8557;
+
+}
+
+.o-container-ProgressJavaScript{
+
+    width: 32rem;
+    height: 1rem;
+    background-color: #9C8557;
+
+}
+
+.o-container-ProgressC{
+
+    width: 8rem;
+    height: 1rem;
+    background-color: #9C8557;
+
+}
